@@ -60,8 +60,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   #### Handicaptest
   Tijdens de werkgroep hebben ik twee verschillende handicaps getest.
-  1. Mindere motoriek (elastiekjes): bij de eerste test heb ik gekeken hoe het is 
+  1. Mindere motoriek (elastiekjes): bij de eerste test heb ik gekeken hoe het is om een laptop met touchpad te gebruiken als je bijvoorbeeld twee vingers niet afzondelijk kunt gebruiken. Daarbij ben ik tot de conclusie gekomen dat het redelijk afhankelijk is van welke vingers je niet kunt gebruiken wat bepaalt in welke mate je een computer moeilijker kan gebruiken. **Dat is iets waar je niet bij iedereen maatwerk voor kunt maken. Dus daarom moet je met alle verschillende vormen rekening houden.**
   
+  2. ...Tekst
 
 
 
