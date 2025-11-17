@@ -60,7 +60,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   #### Handicaptest
   Tijdens de werkgroep hebben ik twee verschillende handicaps getest.
-  1. 
+  1. Mindere motoriek (elastiekjes): bij de eerste test heb ik gekeken hoe het is 
   
 
 
