@@ -23,7 +23,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Toelichting: Ik vind coderen zelf niet super stom, maar wanneer het niet werkt frustreert het mij dermate dat het niet goed begint te worden voor mijn hart. Met hulp kom ik er meestal wel uit en als het dan wel lukt vind ik het stiekem ook wel weer leuk. Verder wil ik in de toekomst niks met code doen, dus ik wil dit vak graag halen om het hoofdstuk af te sluiten en er daarna nooit meer op terugblikken. 
 
   #### Je focus:
-  Ik wil aan de slag gaan met het maken van een responsive website. Dit is een punt waarop ik bij voorgaande pogingen telkens vast liep. Dus ik wil dat nu once and for all met positief resultaat afronden. 
+  Ik wil aan de slag gaan met het maken van een responsive website. Dit is een punt waarop ik bij voorgaande pogingen telkens vast liep. Dus ik wil dat nu once and for all met positief resultaat afronden.
  
 </details>
 
@@ -55,10 +55,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Toegankelijkheidstest 1/2 (week 1)
 
 <details>
-  <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
+  <summary>Uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  #### Handicaptest
+  Tijdens de werkgroep hebben ik twee verschillende handicaps getest.
+  1. 
+  
+
+
 
 </details>
 
