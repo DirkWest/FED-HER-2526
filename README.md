@@ -234,8 +234,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+### Analoge bronnen
+1. https://www.w3schools.com/howto/howto_css_searchbar.asp | Deze bron heb ik gebruikt om uit te zoeken hoe ik een mockup zoekvlak maak voor in mijn pagina.
+
+### AI Bronnen
+* Tijdens het schrijven van de code heb ik GitHub copilot gebruikt om te sparren over de code. 
+* Gemini heb ik ook gebruikt om te sparren over de code.
 
 </details>
