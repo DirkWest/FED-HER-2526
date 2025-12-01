@@ -1,1 +1,65 @@
-/* Hier komt code */
+/*􀅗 Eigen lettertypen */
+@font-face {
+    font-family: "ASNBankSlab-Bold";
+    src: url(/fonts/ASNBankSlab-Bold.woff2) format("woff2");
+    font-weight: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "ProximaNova-Regular";
+    src: url(/fonts/ProximaNovaRegular.woff2) format("woff2");
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "ProximaNova-Semibold";
+    src: url(/fonts/ProximaNovaSemibold.woff2) format("woff2");
+    font-weight: 600;
+    font-display: swap;
+}
+
+/*􀎒 Voorinstellingen */
+:root {
+    --achtergrondkleur-1: #f1f4f2;
+    --achtergondkleur-2: #fadeb8;
+    --achtergrondkleur-3: #ffffff;
+    --achtergrondkleur-4: #7c1230;
+    --achtergrondkleur-5: #761234;
+
+    --tekstkleur-1: #FFFFFF;
+    --tekstkleur-2: #000000;
+    --tekstkleur-3: #1f7d65;
+
+    --lettertype-1: 'ASNBankSlab-Bold', Helvetica, Arial, sans-serif;
+    --lettertype-2: 'proximaNova-Regular', Helvetica, Arial, sans-serif;
+    --lettertype-3: 'ProximaNova-Semibold', Helvetica, Arial, sans-serif;
+    
+    --lettertype-fallback: monospace; 
+    --lettertype-groot: 2.5em;
+    --lettertype-semigroot: 1.75em;
+    --lettertype-medium: 0.875em;
+    --lettertype-klein: 1.0625em;
+}
+
+/*􀦊 Opmaak main */
+h1 {
+    display: none;
+}
+
+.ZichtbareH1 {
+    color: var(--tekstkleur-2);
+    font-size: var(--lettertype-groot);
+    font-family: var(--lettertype-1), var(--lettertype-fallback);;
+}
+
+h2 {
+    color: var(--tekstkleur-3);
+    font-family: var(--lettertype-1), var(--lettertype-fallback);
+}
+
+button svg {
+    height: 5em;
+    width: auto;
+}
