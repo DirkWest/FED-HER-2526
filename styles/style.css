@@ -35,7 +35,7 @@
     --lettertype-1: 'ASNBankSlab-Bold', Helvetica, Arial, sans-serif;
     --lettertype-2: 'proximaNova-Regular', Helvetica, Arial, sans-serif;
     --lettertype-3: 'ProximaNova-Semibold', Helvetica, Arial, sans-serif;
-    
+
     --lettertype-fallback: monospace; 
     --lettertype-groot: 2.5em;
     --lettertype-semigroot: 1.75em;
@@ -44,6 +44,11 @@
 }
 
 /*􀦊 Opmaak main */
+/* Bron: https://github.com/jensimmons/cssremedy/blob/master/css/remedy.css */
+img, svg, video, canvas, audio, iframe, embed, object {
+  max-width: 100%;
+}
+
 h1 {
     display: none;
 }
