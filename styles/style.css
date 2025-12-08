@@ -20,6 +20,10 @@
     font-display: swap;
 }
 
+
+
+
+
 /*􀎒 Voorinstellingen */
 :root {
     --achtergrondkleur-1: #f1f4f2;
@@ -43,12 +47,20 @@
     --lettertype-klein: 1.0625em;
 }
 
-/*􀦊 Opmaak main */
-/* Bron: https://github.com/jensimmons/cssremedy/blob/master/css/remedy.css */
 img, svg, video, canvas, audio, iframe, embed, object {
   max-width: 100%;
 }
 
+body {
+    margin: 0;
+}
+
+
+
+
+
+/*􀦊 Opmaak main */
+/* Bron: https://github.com/jensimmons/cssremedy/blob/master/css/remedy.css */
 h1 {
     display: none;
 }
@@ -64,7 +76,36 @@ h2 {
     font-family: var(--lettertype-1), var(--lettertype-fallback);
 }
 
-button svg {
-    height: 5em;
-    width: auto;
+
+
+
+
+/* 􃈩 Opmaak Header & Nav */
+header nav {
+    display: flex;
+    align-items: center;
+    background: orange;
 }
+
+header nav ul li {
+    list-style: none;
+    padding: 0em 2em 0em 2em;
+}
+
+header nav a:first-of-type {
+    margin-right: auto;
+}
+
+header nav a img {
+    width:10em;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header button svg {
+    height: 1em;
+    width: 100%;
+}
+
