@@ -1,23 +1,23 @@
 /*􀅗 Eigen lettertypen */
 @font-face {
     font-family: "ASNBankSlab-Bold";
-    src: url(/fonts/ASNBankSlab-Bold.woff2) format("woff2");
+    src: url("../fonts/ASNBankSlab-Bold.woff2") format("woff2");
     font-weight: bold;
     font-display: swap;
 }
 
 @font-face {
     font-family: "ProximaNova-Regular";
-    src: url(/fonts/ProximaNovaRegular.woff2) format("woff2");
-    font-weight: normal;
+    src: url("../fonts/ProximaNovaRegular.woff") format("woff");
     font-display: swap;
+    font-weight: 400;
 }
 
 @font-face {
     font-family: "ProximaNova-Semibold";
-    src: url(/fonts/ProximaNovaSemibold.woff2) format("woff2");
-    font-weight: 600;
+    src: url("../fonts/ProximaNovaSemibold.woff") format("woff");
     font-display: swap;
+    font-weight: 600;
 }
 
 
@@ -82,14 +82,18 @@ h2 {
 
 
 /* 􃈩 Opmaak Header & Nav */
+header {
+    background-image: url("../images/afbeelding-header.png");
+    background-size: cover;
+
+}
+
 header nav {
     display: flex;
     align-items: center;
-    background: orange;
     padding: 0.25em;
-    font-family: var(--lettertype-2);
-    font-weight: 600;
-    font-size: 15px;
+    font-family: "ProximaNova-Semibold";
+    font-size: 0.85em;
 }
 
 header nav ul li {
@@ -117,9 +121,20 @@ header nav ul {
     display: flex;
 }
 
+header button {
+    border: none;
+    background: none;
+}
+
 header button svg {
-    height: 1em;
+    height: 1.5em;
     width: 100%;
+    margin-right: 2em;
+    fill: var(--tekstkleur-4);
+}
+
+header section {
+    background-color: green;
 }
 
 .knop {
