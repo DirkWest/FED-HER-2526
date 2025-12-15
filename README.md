@@ -47,7 +47,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### <span style="color:#F0544F">Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/voorbeeldfoto-4.jpeg" width="375px" alt="Tweede pagina voor FED. Informatiepagina ASN Bankrekening.">
+  <img src="readme-images/voorbeeldfoto-4.png" width="375px" alt="Tweede pagina voor FED. Informatiepagina ASN Bankrekening.">
 </details>
 
 
