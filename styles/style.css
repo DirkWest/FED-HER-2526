@@ -95,6 +95,11 @@ header nav {
     font-family: "ProximaNova-Semibold";
     font-size: 0.85em;
     background-color: var(--achtergrondkleur-3);
+    
+    /* Postion van de nav werkt nog niet goed, verdwijnt, ookal is die stickey... */
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 header nav ul li {
@@ -145,6 +150,54 @@ header section {
     border-radius: 100px;
     color: #1F7D65;
     margin-right: 0.5em;
+}
+
+main nav ol {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: var(--lettertype-3);
+    font-size: 0.88em;
+    margin-left: 0.75em;
+}
+
+main nav ol li {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+/* 􀌯 Bron: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:not */
+main nav ol li:not(:last-child)::after {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    margin: 0 0.75em;
+    background-image: url("../images/functional-images/chevron-right.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1em;
+}
+
+main nav ol li a {
+    text-decoration: none;
+    color: #761234;
+}
+
+/* 􀌯 Bron: https://gemini.google.com/share/ebdf00afc044  */
+/* Prompt: "Hoe kan ik de laatste van deze nav een andere kleur en dikte geven?" */
+main nav ol li a[aria-current="page"] {
+    color: var(--tekstkleur-4);
+    font-family: var(--lettertype-2);
+}
+
+main nav svg {
+    height: 1.15em;
+    width: auto;
+    fill: var(--achtergrondkleur-4);
 }
 
 footer {
