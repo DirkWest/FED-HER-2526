@@ -236,9 +236,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ### Analoge bronnen
 1. https://www.w3schools.com/howto/howto_css_searchbar.asp | Deze bron heb ik gebruikt om uit te zoeken hoe ik een mockup zoekvlak maak voor in mijn pagina.
+2. https://www.reddit.com/r/learnjavascript/comments/12fdfhh/how_to_link_js_file_to_html_file_without_the_need/?tl=nl | Deze bron heb ik gebruikt, omdat ik even niet meer wist hoe ik mijn JS moest koppelen aan mijn HTML.
+3. https://www.markdownguide.org/cheat-sheet/ | Deze bron heb ik gebruikt zodat ik m'n markdown netjes kon schrijven.
 
 ### AI Bronnen
-* Tijdens het schrijven van de code heb ik GitHub copilot gebruikt om te sparren over de code. 
-* Gemini heb ik ook gebruikt om te sparren over de code.
+* Github Copilot heeft code die ik vaak opnieuw moest typen gesuggereerd. Copilot heeft GEEN van de lastige geavanceerde code geschreven.
+* Gemini heb ik gebruikt om te sparren over de code.
+
+**Gemini**
+1. "Mag je section of een article plaatsen in een header?" https://gemini.google.com/share/87b1d3a02f8d | Ik wilde graag weten of ik dit kon doen. Nou blijkt dit niet logisch te zijn. Dus heb ik de "Waar kunnen we je mee helpen?" verplaatst naar een losse section.
+2. "Kun je voor mij de :has() in CSS nog een keer uitleggen?" https://gemini.google.com/app/073bedbc70df10e2?hl=nl | Na de les had ik een redelijk goed begrip van de :has() selector, maar ik had zo hier en daar nog even niet helemaal door hoe het werkte, voornamelijk met het juist aanroepen van de selectoren.
 
 </details>

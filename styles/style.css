@@ -138,11 +138,15 @@ header section {
     background-color: green;
 }
 
-.knop {
+.navKnop {
     border: 1px solid black;
     padding: 0.5em 0.85em;
     border: 2px solid #1F7D65;
     border-radius: 100px;
     color: #1F7D65;
     margin-right: 0.5em;
+}
+
+footer {
+    background-color: var(--achtergrondkleur-4);
 }
