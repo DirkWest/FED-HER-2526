@@ -63,13 +63,9 @@ body {
 /*􀦊 Opmaak main */
 /* Bron: https://github.com/jensimmons/cssremedy/blob/master/css/remedy.css */
 h1 {
-    display: none;
-}
-
-.ZichtbareH1 {
-    color: var(--tekstkleur-2);
+    color: var(--tekstkleur-3);
+    font-family: var(--lettertype-1), var(--lettertype-fallback);
     font-size: var(--lettertype-groot);
-    font-family: var(--lettertype-1), var(--lettertype-fallback);;
 }
 
 h2 {
