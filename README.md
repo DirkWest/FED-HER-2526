@@ -239,6 +239,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 2. https://www.reddit.com/r/learnjavascript/comments/12fdfhh/how_to_link_js_file_to_html_file_without_the_need/?tl=nl | Deze bron heb ik gebruikt, omdat ik even niet meer wist hoe ik mijn JS moest koppelen aan mijn HTML.
 3. https://www.markdownguide.org/cheat-sheet/ | Deze bron heb ik gebruikt zodat ik m'n markdown netjes kon schrijven.
 4. https://www.a11y-collective.com/blog/visually-hidden/ | Een H1 met display none is niet toegankelijk, dus dit moest anders. Daarom ben ik gegaan voor deze techniek. Op meerdere plekken online werd het zo uitgelegd. Dus dit leek mij een goede oplossing.
+5. https://www.w3schools.com/css/css3_flexbox_responsive.asp */ | Deze bron heb ik gebruikt omdat ik niet wist hoe de mediaquery's werkte. Ik denk dat Sanne de linkjes naar de uitwerkingen op DLO uit heeft gezet...
 
 ### AI Bronnen
 * Github Copilot heeft code die ik vaak opnieuw moest typen gesuggereerd. Copilot heeft GEEN van de lastige geavanceerde code geschreven.
@@ -248,5 +249,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 1. "Mag je section of een article plaatsen in een header?" https://gemini.google.com/share/87b1d3a02f8d | Ik wilde graag weten of ik dit kon doen. Nou blijkt dit niet logisch te zijn. Dus heb ik de "Waar kunnen we je mee helpen?" verplaatst naar een losse section.
 2. "Kun je voor mij de :has() in CSS nog een keer uitleggen?" https://gemini.google.com/app/073bedbc70df10e2?hl=nl | Na de les had ik een redelijk goed begrip van de :has() selector, maar ik had zo hier en daar nog even niet helemaal door hoe het werkte, voornamelijk met het juist aanroepen van de selectoren.
 3. "Moeten de breadcrumbs erbij komen te staan in de nav van de pagina?" https://gemini.google.com/share/b710394e4d2a | Ik wist niet of het beter was om de breadcrumbs die ASN gebruikt te plaatsen in de nav of in de main van de pagina. Gemini stelde de main voor. 
+4. "Hoe kan ik ervoor zorgen dat ik twee blokjes te zien krijg op een tablet, en drie blokjes op een desktop. Het mogen er niet meer zijn." /* Bron: https://gemini.google.com/share/7c7aef35fe91 */ | Dit heb ik moeten doen omdat ik niet de voorbeelden van de codepen kon gebruiken tijdens de vakantie en ik met alleen de uitleg van W3C er niet kwam.
 
 </details>
+
+

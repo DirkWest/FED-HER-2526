@@ -56,6 +56,79 @@
 
 
 
+/*􀦊 Voorinstellingen main */
+/* 􀌯 Bron: https://github.com/jensimmons/cssremedy/blob/master/css/remedy.css */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+img, svg, video, canvas, audio, iframe, embed, object {
+    max-width: 100%;
+}
+  
+body {
+    margin: 0;
+}
+
+main {
+    font-family: var(--lettertype-2);
+    font-weight: 400;
+}
+
+/* 􀃋 Opmaak van de H1's */
+h1 {
+    font-size: 28px;
+    font-family: var(--lettertype-1);
+    color: var(--tekstkleur-4);
+}
+
+.zichtbareH1 {
+    font-size: 28px;
+    font-family: var(--lettertype-1);
+    color: var(--tekstkleur-4);
+    margin-bottom: 0.25em;
+    line-height: 1.25em;
+    padding-bottom: 0.25em;
+}
+
+/* 􀃍 Opmaak van de H2 */
+h2 {
+    font-size: 22px;
+    font-family: var(--lettertype-1);
+    color: var(--tekstkleur-3);
+    margin: 0;
+}
+
+/* 􀃏 Opmaak van de H3 */
+h3 {
+    font-size: 19px;
+    font-family: var(--lettertype-1);
+    color: var(--tekstkleur-3);
+}
+
+/* 􀃑 Opmaak van de H4 */
+h4 {
+    font-size: 16px;
+    font-family: var(--lettertype-3);
+}
+
+p {
+    color: var(--tekstkleur-4);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
 /* Opmaak class visually-hidden */
 /* 􀌯 Bron: https://www.a11y-collective.com/blog/visually-hidden/ */
 .visually-hidden {

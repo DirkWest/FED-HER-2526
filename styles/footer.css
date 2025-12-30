@@ -1,0 +1,65 @@
+/* Opmaak van de footer */
+footer {
+    background-color: var(--achtergrondkleur-4);
+    color: var(--tekstkleur-1);
+    font-family: var(--lettertype-2);
+    font-size: 14px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    display: flex;
+    justify-content: center ;
+}
+
+footer li img {
+    height: auto;
+    width: 10em; 
+    padding-top: 1.5em;
+}
+
+footer ul:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+
+    padding-top: 3.5em; 
+    padding-bottom: 1.5em; 
+    border-bottom: 1px solid #ab2148;
+    margin: 0em 1.5em 0em 1.5em;
+    
+    font-family: var(--lettertype-3);
+}
+
+footer ul:nth-of-type(2) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 0.25em 1em;
+    padding-bottom: 2em;
+}
+
+footer ul:nth-of-type(2) li {
+    padding: 0.25em 1em 0.25em 0em;
+    border-right: 1px solid #ab2148;   
+
+    font-family: var(--lettertype-2);
+}
+
+footer ul:nth-of-type(3) {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    padding: 2em 0em;
+    margin: 0;
+}
+
+footer ul:nth-of-type(3) a {
+    text-decoration: none;
+    color: var(--tekstkleur-1);
+}

@@ -81,12 +81,13 @@ header section {
 
 #blok1 button {
     color: var(--tekstkleur-3);
-    padding: 1em;
+    padding: .85em;
     background-color: white;
     width: 100%;
     border-radius: 100px;
     border: 2px solid var(--tekstkleur-3);
     font-family: var(--lettertype-3);
+    font-size: 16px;
     margin-bottom: 1.5em;
 }
 
