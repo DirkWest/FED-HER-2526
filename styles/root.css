@@ -1,0 +1,70 @@
+/*􀅗 Eigen lettertypen */
+@font-face {
+    font-family: "ASNBankSlab-Bold";
+    src: url("../fonts/ASNBankSlab-Bold.woff2") format("woff2");
+    font-weight: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "ProximaNova-Regular";
+    src: url("../fonts/ProximaNovaRegular.woff2") format("woff2");
+    font-display: swap;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "ProximaNova-Semibold";
+    src: url("../fonts/ProximaNovaSemibold.woff") format("woff");
+    font-display: swap;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+/*􀎒 Voorinstellingen */
+:root {
+    --achtergrondkleur-1: #f1f4f2;
+    --achtergondkleur-2: #fadeb8;
+    --achtergrondkleur-3: #ffffff;
+    --achtergrondkleur-4: #7c1230;
+    --achtergrondkleur-5: #761234;
+
+    --tekstkleur-1: #FFFFFF;
+    --tekstkleur-2: #000000;
+    --tekstkleur-3: #1f7d65;
+    --tekstkleur-4: #373737;
+
+    --lettertype-1: 'ASNBankSlab-Bold', Helvetica, Arial, sans-serif;
+    --lettertype-2: 'ProximaNova-Regular', Helvetica, Arial, sans-serif;
+    --lettertype-3: 'ProximaNova-Semibold', Helvetica, Arial, sans-serif;
+
+    --lettertype-fallback: monospace; 
+    --lettertype-groot: 2.5em;
+    --lettertype-semigroot: 1.75em;
+    --lettertype-medium: 0.875em;
+    --lettertype-klein: 1.0625em;
+}
+
+
+
+
+
+
+
+/* Opmaak class visually-hidden */
+/* 􀌯 Bron: https://www.a11y-collective.com/blog/visually-hidden/ */
+.visually-hidden {
+  border: 0;
+  clip-path: inset(50%);
+  height: 1px;
+  margin: 0;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}

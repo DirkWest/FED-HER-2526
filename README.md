@@ -238,6 +238,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 1. https://www.w3schools.com/howto/howto_css_searchbar.asp | Deze bron heb ik gebruikt om uit te zoeken hoe ik een mockup zoekvlak maak voor in mijn pagina.
 2. https://www.reddit.com/r/learnjavascript/comments/12fdfhh/how_to_link_js_file_to_html_file_without_the_need/?tl=nl | Deze bron heb ik gebruikt, omdat ik even niet meer wist hoe ik mijn JS moest koppelen aan mijn HTML.
 3. https://www.markdownguide.org/cheat-sheet/ | Deze bron heb ik gebruikt zodat ik m'n markdown netjes kon schrijven.
+4. https://www.a11y-collective.com/blog/visually-hidden/ | Een H1 met display none is niet toegankelijk, dus dit moest anders. Daarom ben ik gegaan voor deze techniek. Op meerdere plekken online werd het zo uitgelegd. Dus dit leek mij een goede oplossing.
 
 ### AI Bronnen
 * Github Copilot heeft code die ik vaak opnieuw moest typen gesuggereerd. Copilot heeft GEEN van de lastige geavanceerde code geschreven.

@@ -1,60 +1,4 @@
-/*􀅗 Eigen lettertypen */
-@font-face {
-    font-family: "ASNBankSlab-Bold";
-    src: url("../fonts/ASNBankSlab-Bold.woff2") format("woff2");
-    font-weight: bold;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "ProximaNova-Regular";
-    src: url("../fonts/ProximaNovaRegular.woff2") format("woff2");
-    font-display: swap;
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: "ProximaNova-Semibold";
-    src: url("../fonts/ProximaNovaSemibold.woff") format("woff");
-    font-display: swap;
-    font-weight: 600;
-}
-
-
-
-
-
-/*􀎒 Voorinstellingen */
-:root {
-    --achtergrondkleur-1: #f1f4f2;
-    --achtergondkleur-2: #fadeb8;
-    --achtergrondkleur-3: #ffffff;
-    --achtergrondkleur-4: #7c1230;
-    --achtergrondkleur-5: #761234;
-
-    --tekstkleur-1: #FFFFFF;
-    --tekstkleur-2: #000000;
-    --tekstkleur-3: #1f7d65;
-    --tekstkleur-4: #373737;
-
-    --lettertype-1: 'ASNBankSlab-Bold', Helvetica, Arial, sans-serif;
-    --lettertype-2: 'ProximaNova-Regular', Helvetica, Arial, sans-serif;
-    --lettertype-3: 'ProximaNova-Semibold', Helvetica, Arial, sans-serif;
-
-    --lettertype-fallback: monospace; 
-    --lettertype-groot: 2.5em;
-    --lettertype-semigroot: 1.75em;
-    --lettertype-medium: 0.875em;
-    --lettertype-klein: 1.0625em;
-}
-
-
-
-
-
-
-
-/*􀦊 Opmaak main */
+/*􀦊 Voorinstellingen main */
 /* Bron: https://github.com/jensimmons/cssremedy/blob/master/css/remedy.css */
 img, svg, video, canvas, audio, iframe, embed, object {
     max-width: 100%;
@@ -80,6 +24,7 @@ h1 {
     font-size: 28px;
     font-family: var(--lettertype-1);
     color: var(--tekstkleur-4);
+    margin-bottom: 0.25em;
 }
 
 /* 􀃍 Opmaak van de H2 */
@@ -87,6 +32,7 @@ h2 {
     font-size: 22px;
     font-family: var(--lettertype-1);
     color: var(--tekstkleur-3);
+    margin: 0;
 }
 
 /* 􀃏 Opmaak van de H3 */
@@ -102,125 +48,113 @@ h4 {
     font-family: var(--lettertype-3);
 }
 
-/* 􃈩 Opmaak Header & Nav */
-header {
-    background-image: url("../images/afbeelding-header.png");
-    background-size: cover;
-    background-position: right bottom;
-}
-
-header nav {
-    display: flex;
-    align-items: center;
-    padding: 1em 0.25em 1em 0.25em;
-    font-family: "ProximaNova-Semibold";
-    font-size: 0.85em;
-    background-color: var(--achtergrondkleur-3);
-    
-    /* Postion van de nav werkt nog niet goed, verdwijnt, ookal is die stickey... */
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}
-
-header nav ul li {
-    list-style: none;
-    padding: 0em 0.5em 0em 0.5em;
-}
-
-header nav a {
-    text-decoration: none;
+p {
     color: var(--tekstkleur-4);
 }
 
-header nav a:first-of-type {
-    margin-right: auto;
-}
 
-header nav a img {
-    height: 2em;
-    width: auto;
-    min-width: 10em;
-    padding: 0em 0em 0em 0.5em;
-}
 
-header nav ul {
+
+
+/* Opmaak van de main */
+main section:nth-of-type(1) {
+    background-color: #F1f4f2;
     display: flex;
+    flex-direction: column;
+    padding: 2.25em;
 }
 
-header button {
-    border: none;
-    background: none;
+main section:nth-of-type(1) h2 {
+    padding-bottom: 0.85em;
 }
 
-header button svg {
-    height: 1.75em;
-    width: 100%;
-    margin-right: 2em;
-    fill: var(--tekstkleur-4);
-}
-
-header section {
-    background-color: green;
-}
-
-.navKnop {
-    border: 1px solid black;
-    padding: 0.5em 0.85em;
-    border: 2px solid #1F7D65;
-    border-radius: 100px;
-    color: #1F7D65;
-    margin-right: 0.5em;
-}
-
-main nav ol {
+.zoekbalk {
     display: flex;
-    justify-content: flex-start;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    font-family: var(--lettertype-3);
-    font-size: 0.88em;
-    margin-left: 0.75em;
+    flex-wrap: nowrap;
 }
 
-main nav ol li {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-}
-
-/* 􀌯 Bron: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:not */
-main nav ol li:not(:last-child)::after {
-    content: "";
-    display: inline-block;
-    width: 1em;
-    margin: 0 0.75em;
-    background-image: url("../images/functional-images/chevron-right.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 1em;
-}
-
-main nav ol li a {
-    text-decoration: none;
-    color: #761234;
-}
-
-/* 􀌯 Bron: https://gemini.google.com/share/ebdf00afc044  */
-/* Prompt: "Hoe kan ik de laatste van deze nav een andere kleur en dikte geven?" */
-main nav ol li a[aria-current="page"] {
-    color: var(--tekstkleur-4);
+main section:nth-of-type(1) input {
+    padding: 1em;
+    border-top: 2px solid #d7d7d7;
+    border-left: 2px solid #d7d7d7;
+    border-right: none;
+    border-bottom: 2px solid #d7d7d7;
+    border-radius: 0;
     font-family: var(--lettertype-2);
+    color: #373737;
+    height: 3.5em;
+    width: 100%;
+    padding-right: 0;
 }
 
-main nav svg {
-    height: 1.15em;
-    width: auto;
-    fill: var(--achtergrondkleur-4);
+main section:nth-of-type(1) button {
+    padding: 1em;
+    height: 3.5em;
+    width: 3.5em;
+    border: none;
+    background-color: #1f7d65;
 }
 
+main section:nth-of-type(1) button svg {
+    fill: white;
+}
+
+main section:nth-of-type(1) ul {
+    list-style: none;
+    padding: 0;
+    font-family: var(--lettertype-3);
+    font-weight: 700;
+}
+
+main section:nth-of-type(1) ul li {
+    padding-left: 1.5rem;
+    margin-bottom: 0.75rem;
+    background-image: url("../images/functional-images/chevron-right-asn.svg");
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    fill: #761234;
+    background-size: 0.80rem 0.80rem;
+}
+
+main section:nth-of-type(1) ul li a {
+    text-decoration: none;
+    color: var(--achtergrondkleur-4);
+}
+
+
+/* 􀌯 Bron: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Child_combinator */
+main > article:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 2.25em;
+}
+
+main > article:nth-of-type(1) img {
+    height: auto;
+    width: 15em;
+    padding: 1.5em;
+    align-self: center;
+}
+
+main section:nth-of-type(2) {
+    background-color: #fdf3e5;
+}
+
+main section:nth-of-type(2) div {
+    
+}
+
+
+
+
+
+
+
+
+
+/* Opmaak van de footer */
 footer {
     background-color: var(--achtergrondkleur-4);
 }
