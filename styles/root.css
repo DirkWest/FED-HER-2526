@@ -141,3 +141,9 @@ a {
   white-space: nowrap;
   width: 1px;
 }
+
+.dikstreep {
+    font-family: var(--lettertype-3);
+    color: var(--achtergrondkleur-4);
+    text-decoration: underline;
+}

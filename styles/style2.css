@@ -1,0 +1,125 @@
+main > img:nth-of-type(1) {
+    display: block;
+    width: 9.5em;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    z-index: 5; 
+    margin-bottom: 0em; 
+}
+
+main article:nth-of-type(1) {
+    background-color: #41b392;
+    padding-top: 0;
+    padding-bottom: 3.5em;
+    position: relative; 
+    z-index: 1; 
+}
+
+main article:nth-of-type(1)::before {
+    content: "";
+    position: absolute;
+    top: -7em; 
+    left: 0;
+    right: 0;
+    height: 7em;
+    background-color: #41b392;
+    z-index: -1; 
+}
+
+main article:nth-of-type(1) h2 {
+    text-align: center;
+    font-size: 28px
+}
+
+main > article:nth-of-type(1) section:nth-of-type(1) {
+    background-color: white;
+    padding: 1.25em;
+    padding-top: 2.85em;
+    margin: 0 1.25em;
+}
+
+main section:nth-of-type(1) ul {
+    list-style: none;
+    padding: 0;
+}
+
+main > article:nth-of-type(1) section:nth-of-type(1) ul li {
+    color: var(--tekstkleur-4);
+    padding-left: 1.5rem;
+    margin-bottom: 0.75rem;
+    background-image: url("../images/functional-images/checkmark-asn.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0.25em;
+    fill: #761234;
+    background-size: 0.80rem 0.80rem;
+}
+
+main section:nth-of-type(2), main section:nth-of-type(3) {
+    background-color: white;
+    margin: 0 1.25em;
+    padding: 1.25em;
+    padding-top: 0; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main section:nth-of-type(2) img, main section:nth-of-type(3) img {
+    height: auto;
+    width: 5em;
+    margin-bottom: 0.5em; 
+}
+
+main section:nth-of-type(2) button, main section:nth-of-type(3) button {
+    height: 3em;
+    width: 100%;
+    
+    
+    font-family: var(--lettertpe-3);
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    border-radius: 100px;
+    background-color: #1f7d65;
+    color: white;
+}
+
+main section:nth-of-type(2) a, main section:nth-of-type(3) a {
+    color: var(--achtergrondkleur-4);
+    font-family: var(--lettertpe-3);
+    font-weight: 700;
+    padding: 0.75em; 
+}
+
+main section:nth-of-type(2) a img, main section:nth-of-type(3) a img {
+    height: auto;
+    width: 1em;
+    margin: 0;
+    margin-left: 0.25em;
+}
+
+main > article:nth-of-type(2) {
+    padding: 2.25em;
+}
+
+main > article:nth-of-type(2) p {
+    margin: 0;
+    color: var(--tekstkleur-4);
+}
+
+main > article:nth-of-type(2) p:nth-of-type(1) {
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+}
+
+main > article:nth-of-type(3) {
+    background-color: #f1f4f2;
+}
+
+main > article:nth-of-type(3) h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 1em;
+}
+
