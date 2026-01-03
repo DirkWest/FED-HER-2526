@@ -8,7 +8,7 @@ main > img:nth-of-type(1) {
     margin-bottom: 0em; 
 }
 
-main article:nth-of-type(1) {
+main > article:nth-of-type(1) {
     background-color: #41b392;
     padding-top: 0;
     padding-bottom: 3.5em;
@@ -55,7 +55,7 @@ main > article:nth-of-type(1) section:nth-of-type(1) ul li {
     background-size: 0.80rem 0.80rem;
 }
 
-main section:nth-of-type(2), main section:nth-of-type(3) {
+main > article:nth-of-type(1) section:nth-child(3), main > article:nth-of-type(1) section:nth-child(4) {
     background-color: white;
     margin: 0 1.25em;
     padding: 1.25em;
@@ -71,11 +71,9 @@ main section:nth-of-type(2) img, main section:nth-of-type(3) img {
     margin-bottom: 0.5em; 
 }
 
-main section:nth-of-type(2) button, main section:nth-of-type(3) button {
+main > article:nth-of-type(1) section:nth-of-type(2) button, main > article:nth-of-type(1) section:nth-of-type(3) button {
     height: 3em;
     width: 100%;
-    
-    
     font-family: var(--lettertpe-3);
     font-weight: 700;
     font-size: 16px;
@@ -92,7 +90,7 @@ main section:nth-of-type(2) a, main section:nth-of-type(3) a {
     padding: 0.75em; 
 }
 
-main section:nth-of-type(2) a img, main section:nth-of-type(3) a img {
+main article:nth-of-type(1) section:nth-of-type(2) a img, main article:nth-of-type(1) section:nth-of-type(3) a img {
     height: auto;
     width: 1em;
     margin: 0;
@@ -115,11 +113,73 @@ main > article:nth-of-type(2) p:nth-of-type(1) {
 
 main > article:nth-of-type(3) {
     background-color: #f1f4f2;
+    padding: 2.25em;
 }
 
 main > article:nth-of-type(3) h2 {
+    padding-top: 1.25em;
     text-align: center;
     font-size: 28px;
     margin-bottom: 1em;
 }
 
+main > article:nth-of-type(3) section:nth-of-type(1) li {
+    border-bottom: 1px solid var(--tekstkleur-4);
+    margin-bottom: 1.5em;
+}
+
+main > article:nth-of-type(3) section:nth-of-type(2) ul {
+    list-style: none;
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main > article:nth-of-type(3) section:nth-of-type(2) ul li {
+        border-bottom: 1px solid var(--tekstkleur-4);
+    margin-bottom: 1.5em;
+}
+
+main > article:nth-of-type(3) section:nth-of-type(2) div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main > article:nth-of-type(3) section:nth-of-type(2) div button {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+main > article:nth-of-type(3) section:nth-of-type(2) div button img {
+    height: auto;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    padding-left: 0.35em;
+}
+
+.listHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.knopJS1 {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    font-weight: 700;
+    color: var(--achtergrondkleur-4);
+    padding-left: 3.5em;
+}
+
+.knopJS1 img {
+    padding-left: 0.35em;
+    height: auto;
+}
