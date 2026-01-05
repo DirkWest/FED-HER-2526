@@ -178,9 +178,10 @@ main > article:nth-of-type(4) {
 
 main > article:nth-of-type(4) img {
     padding: 1em;
-    padding-bottom: 2.5em;
+    padding-bottom: 0em;
     height: auto;
     width: 30em;
+    padding-top: 2em;
 }
 
 main > article:nth-of-type(4) ul {
@@ -202,7 +203,7 @@ main > img:nth-of-type(2) {
 }
 
 main > article:nth-of-type(5) {
-    background-color: #41b392;
+    background-color: #fdf3e5;
     padding-top: 0;
     padding-bottom: 2em;
     position: relative; 
@@ -216,14 +217,16 @@ main > article:nth-of-type(5)::before {
     left: 0;
     right: 0;
     height: 6em;
-    background-color: #41b392;
+    background-color: #fdf3e5;
     z-index: -1; 
 }
 
 main > article:nth-of-type(5) div {
-    padding: 1.75em;
+    padding: 1em;
     background-color: white;
     margin: 1.75em;
+    padding-top: 0;
+    margin-top: 0
 }
 
 main article:nth-of-type(5) h2 {
