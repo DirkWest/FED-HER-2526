@@ -148,3 +148,27 @@ a {
     color: var(--achtergrondkleur-4);
     text-decoration: underline;
 }
+
+.knopGroen {
+    height: 3em;
+    width: 100%;
+    font-family: var(--lettertpe-3);
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    border-radius: 100px;
+    background-color: #1f7d65;
+    color: white;
+}
+
+.knopWit {
+    height: 3em;
+    width: 100%;
+    font-family: var(--lettertpe-3);
+    font-weight: 700;
+    font-size: 16px;
+    border: 2px solid var(--tekstkleur-3);
+    border-radius: 100px;
+    background-color: white;
+    color: var(--tekstkleur-3);
+}

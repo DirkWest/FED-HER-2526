@@ -22,7 +22,7 @@ main article:nth-of-type(1)::before {
     top: -7em; 
     left: 0;
     right: 0;
-    height: 7em;
+    height: 7.5em;
     background-color: #41b392;
     z-index: -1; 
 }
@@ -69,18 +69,6 @@ main section:nth-of-type(2) img, main section:nth-of-type(3) img {
     height: auto;
     width: 5em;
     margin-bottom: 0.5em; 
-}
-
-main > article:nth-of-type(1) section:nth-of-type(2) button, main > article:nth-of-type(1) section:nth-of-type(3) button {
-    height: 3em;
-    width: 100%;
-    font-family: var(--lettertpe-3);
-    font-weight: 700;
-    font-size: 16px;
-    border: none;
-    border-radius: 100px;
-    background-color: #1f7d65;
-    color: white;
 }
 
 main section:nth-of-type(2) a, main section:nth-of-type(3) a {
@@ -138,7 +126,7 @@ main > article:nth-of-type(3) section:nth-of-type(2) ul {
 }
 
 main > article:nth-of-type(3) section:nth-of-type(2) ul li {
-        border-bottom: 1px solid var(--tekstkleur-4);
+    border-bottom: 1px solid var(--tekstkleur-4);
     margin-bottom: 1.5em;
 }
 
@@ -182,4 +170,64 @@ main > article:nth-of-type(3) section:nth-of-type(2) div button img {
 .knopJS1 img {
     padding-left: 0.35em;
     height: auto;
+}
+
+main > article:nth-of-type(4) {
+    padding: 3.25em;
+}
+
+main > article:nth-of-type(4) img {
+    padding: 1em;
+    padding-bottom: 2.5em;
+    height: auto;
+    width: 30em;
+}
+
+main > article:nth-of-type(4) ul {
+    padding-left: 1em;
+}
+
+main > article:nth-of-type(4) button {
+    margin-top: 1em;
+}
+
+main > img:nth-of-type(2) {
+    display: block;
+    width: 9.5em;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    z-index: 5; 
+    margin-bottom: 0em; 
+}
+
+main > article:nth-of-type(5) {
+    background-color: #41b392;
+    padding-top: 0;
+    padding-bottom: 2em;
+    position: relative; 
+    z-index: 1; 
+}
+
+main > article:nth-of-type(5)::before {
+    content: "";
+    position: absolute;
+    top: -5.5em; 
+    left: 0;
+    right: 0;
+    height: 6em;
+    background-color: #41b392;
+    z-index: -1; 
+}
+
+main > article:nth-of-type(5) div {
+    padding: 1.75em;
+    background-color: white;
+    margin: 1.75em;
+}
+
+main article:nth-of-type(5) h2 {
+    text-align: center;
+    font-size: 22px;
+    padding-top: 1em;
 }
