@@ -247,3 +247,45 @@ main > article:nth-of-type(5) ol li {
 main > article:nth-of-type(5) p:nth-of-type(1) {
     margin-top: 0.25em
 }
+
+main > article:nth-of-type(6) {
+    padding: 2.25em;
+}
+
+main > article:nth-of-type(6) button{
+    margin-top: 1.5em;
+}
+
+main > article:nth-of-type(7) {
+    padding: 1.5em;
+    margin: 2.25em;
+    border: 2px solid var(--achtergrondkleur-4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main > article:nth-of-type(7) img {
+    width: 10em;
+    height: auto;
+    margin-bottom: 1.5em;
+}
+
+main > article:nth-of-type(7) h2 {
+    color: #373737;
+}
+
+
+
+main > article:nth-of-type(7) a {
+    color: var(--achtergrondkleur-4);
+    font-family: var(--lettertpe-3);
+    font-weight: bold;
+}
+
+main > article:nth-of-type(7) a img {
+    width: 1.15em;
+    height: auto;
+    margin: 0;
+}
+
