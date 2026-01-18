@@ -299,6 +299,7 @@ main > article:nth-of-type(8) ul {
     list-style: none;
     padding: 1.75em;
     margin: 0;
+    padding-bottom: 0;
 }
 
 main > article:nth-of-type(8) ul li {
@@ -440,4 +441,86 @@ main > section > article:nth-of-type(2) ul li img {
 
 p.uitklap1.zichtbaar {
     padding-bottom: 1em;
+}
+
+/* Bron: https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
+.andereProducten {
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE/Edge */
+    
+    scroll-snap-type: x mandatory;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.andereProducten li {
+    flex: 0 0 100%; 
+    min-width: 120%;
+    
+    scroll-snap-align: start; 
+    scroll-snap-stop: always; 
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    padding: 2.25em;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+    .andereProducten {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        overflow-x: visible;
+        scroll-snap-type: none;
+    }
+    .andereProducten li {
+        flex: none;
+        min-width: auto;
+    }
+}
+
+main > article:nth-of-type(8) {
+    padding-bottom: 0;
+    margin-bottom: 3em;;
+}
+
+main > article:nth-of-type(8) h2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Bron: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Overflow/Carousels */
+/* Bron: https://gemini.google.com/share/3c1f2a901065 */
+.scroll-stipjes {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.stip {
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background-color: #d7d7d7; 
+    transition: background-color 0.3s ease;
+}
+
+.stip.active {
+    background-color: #1f7d65;
+    width: 20px;
+    border-radius: 25px;
+}
+
+@media screen and (min-width: 768px) {
+    .scroll-stipjes {
+        display: none;
+    }
 }
