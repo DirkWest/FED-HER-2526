@@ -85,9 +85,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 </details>
 
 
-
-
-
 ## <span style="color:#F0544F">Voortgang 1 (week 2)
 
 <details>
@@ -116,40 +113,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 </details>
 
-
-
-
-
-## <span style="color:#F0544F">Voortgang 2 (week 3)
-
-<details>
-  <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
-
-  ### <span style="color:#F0544F">Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-  ### <span style="color:#F0544F">Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
-  ### <span style="color:#F0544F">Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
-
-</details>
-
-
+## <span style="color:#F0544F">Voortgang andere weken
+Kijk naar de versiegeschiedenis in github. Daar zijn alle tussenstappen te zien, inzichten en momenten waarop ik de moed even was verloren.
 
 
 
@@ -167,38 +132,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-## <span style="color:#F0544F">Voortgang 3 (week 4)
-
-<details>
-  <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
-
-  ### <span style="color:#F0544F">Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-  ### <span style="color:#F0544F">Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
-  ### <span style="color:#F0544F">Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
-</details>
-
-
-
-
 
 ## <span style="color:#B5D99C">Eindgesprek (week 5)
 
@@ -206,19 +139,38 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### <span style="color:#B5D99C">Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/eindresultaat-homepage.png" width="375px" alt="eindresultaat pagina 1">
+  
+  <img src="readme-images/eindresultaat-pagina-2.png" width="375px" alt="eindresultaat pagina 1">
+
 
 
   ### <span style="color:#B5D99C">Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  **Dingen die goed gingen:**
+  - Werken met :Root en var()
+  - Alle benodigde afbeeldingen uit de bestaande site van ASN halen.
+  - Werken met SVG's en styling daarvan in CSS.
+  - Werken met basis HTML structuur.
+  - Overzichtelijk HTML & CSS proberen te schrijven.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
+  **Dingen die ik heb geleerd:**
+  - Werken met Aria-labels
+  - Werken met media-query
+  - ::before
+  - nth-of-type & nth-type (algemeen gebruik en verschil + het nut van een > in de selector)
+  - Gebruik van meerdere stylesheets is gedoogd :)
+  - Beter begrip van flexbox, gebruik gemaatk van flex direction.
+  - Position absolute
+  - Begin gemaakt aan responsiveness. (Bijvoorbeeld de 6 blokjes op de homepage.)
 
   ### <span style="color:#B5D99C">Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  **Dingen die toch nog erg moeizaam gaan**
+  - JS blijft voor mij echt onbegrijpelijk. Daar heb ik dus ook veel hulp bij gehad.
+  - Postioneren van afbeeldingen met relative en absolute.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  **Dingen die niet zijn gelukt**
+  - Ik wilde graag de hele website responsive maken, maar dit is helaas niet gelukt omdat er te veel moeilijke elementen in de code staan waardoor het voor mij, met minimale kennis, erg lastig was om alles recht te zetten.
+  - De nav is voor een gedeelte gelukt met responsive maken. De tekst komt tevoorschijn en het hamburger menu gaat weg wanneer het scherm groter is. Alleen was het schalen van de nav en het uilijnen van de ul niet gelukt.
 </details>
 
 
@@ -233,6 +185,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
+
+### Wie hebben geholpen?
+1. Danny de Vries
+2. Sonja Rouwhorst
+3. Tijn Hollander
+4. Maya Wendelin
 
 ### Analoge bronnen
 1. https://www.w3schools.com/howto/howto_css_searchbar.asp | Deze bron heb ik gebruikt om uit te zoeken hoe ik een mockup zoekvlak maak voor in mijn pagina.

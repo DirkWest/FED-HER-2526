@@ -1,3 +1,6 @@
+// Hulp gekregen van CMD Student Tijn Hollander.
+// Inspiratie gehaald uit JS van Inleiding programmeren met Sonja Rouwhorst
+
 // Even testen :)
 console.log("hi");
 
