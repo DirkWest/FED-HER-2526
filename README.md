@@ -124,12 +124,12 @@ Kijk naar de versiegeschiedenis in github. Daar zijn alle tussenstappen te zien,
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### <span style="color:#F0544F">Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
-
+  <img src="readme-images/WCAG1.jpeg" width="375px" alt="pagina 1">
+  <img src="readme-images/WCAG2.jpeg" width="375px" alt="pagina 2">  
+  <img src="readme-images/WCAG3.jpeg" width="375px" alt="pagina 3">
+  <img src="readme-images/WCAG4.jpeg" width="375px" alt="pagina 4">
+  <img src="readme-images/WCAG5.jpeg" width="375px" alt="pagina 5">    
 </details>
-
-
-
 
 
 
@@ -171,6 +171,7 @@ Kijk naar de versiegeschiedenis in github. Daar zijn alle tussenstappen te zien,
   **Dingen die niet zijn gelukt**
   - Ik wilde graag de hele website responsive maken, maar dit is helaas niet gelukt omdat er te veel moeilijke elementen in de code staan waardoor het voor mij, met minimale kennis, erg lastig was om alles recht te zetten.
   - De nav is voor een gedeelte gelukt met responsive maken. De tekst komt tevoorschijn en het hamburger menu gaat weg wanneer het scherm groter is. Alleen was het schalen van de nav en het uilijnen van de ul niet gelukt.
+  - GitHub doet moeilijk met het inladen van andere fonts. Dus niet alle fonts doen het via de github website, maar ze doen het wel via de lokale versie.
 </details>
 
 
