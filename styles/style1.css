@@ -64,8 +64,8 @@ main section:nth-of-type(1) ul li a {
 }
 
 
-/* 􀌯 Bron: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Child_combinator */
-main > article:nth-of-type(1) {
+/* Bron: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Child_combinator */
+main>article:nth-of-type(1) {
     display: flex;
     justify-content: center;
     align-items: start;
@@ -73,20 +73,20 @@ main > article:nth-of-type(1) {
     padding: 2.25em;
 }
 
-main > article:nth-of-type(1) img {
+main>article:nth-of-type(1) img {
     height: auto;
     width: 20em;
     padding: 1.5em;
     align-self: center;
 }
 
-main > article:nth-of-type(1) a {
+main>article:nth-of-type(1) a {
     text-decoration: none;
     color: #761234;
     font-family: var(--lettertype-3);
 }
 
-main > article:nth-of-type(1) a img {
+main>article:nth-of-type(1) a img {
     height: auto;
     width: 1.25em;
     padding: 0;
@@ -97,13 +97,13 @@ main section:nth-of-type(2) {
     background-color: #fdf3e5;
 }
 
-main section:nth-of-type(2) ul { 
+main section:nth-of-type(2) ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
     gap: 1.25em;
-    padding: 1.75em; 
+    padding: 1.75em;
 }
 
 main section:nth-of-type(2) ul li {
@@ -118,7 +118,7 @@ main section:nth-of-type(2) ul li {
     text-align: center;
     font-size: 14px;
 
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05), 0 10px 15px -5px rgba(0,0,0,0.05), 0 5px 5px -5px rgba(0,0,0,0.04);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 10px 15px -5px rgba(0, 0, 0, 0.05), 0 5px 5px -5px rgba(0, 0, 0, 0.04);
 }
 
 /* Bron: https://www.w3schools.com/css/css3_flexbox_responsive.asp */

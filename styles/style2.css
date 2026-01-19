@@ -1,38 +1,38 @@
-main > img:nth-of-type(1) {
+main>img:nth-of-type(1) {
     display: block;
     width: 9.5em;
     height: auto;
     margin: 0 auto;
     position: relative;
-    z-index: 5; 
-    margin-bottom: 0em; 
+    z-index: 5;
+    margin-bottom: 0em;
 }
 
-main > article:nth-of-type(1) {
+main>article:nth-of-type(1) {
     background-color: #41b392;
     padding-top: 0;
     padding-bottom: 3.5em;
-    position: relative; 
-    z-index: 1; 
+    position: relative;
+    z-index: 1;
 }
 
 main article:nth-of-type(1)::before {
     content: "";
     position: absolute;
-    top: -7em; 
+    top: -7em;
     left: 0;
     right: 0;
     height: 7.5em;
     background-color: #41b392;
-    z-index: -1; 
+    z-index: -1;
 }
 
-main > article:nth-of-type(1) h2 {
+main>article:nth-of-type(1) h2 {
     text-align: center;
     font-size: 28px
 }
 
-main > article:nth-of-type(1) section:nth-of-type(1) {
+main>article:nth-of-type(1) section:nth-of-type(1) {
     background-color: white;
     padding: 1.25em;
     padding-top: 2.85em;
@@ -44,7 +44,7 @@ main section:nth-of-type(1) ul {
     padding: 0;
 }
 
-main > article:nth-of-type(1) section:nth-of-type(1) ul li {
+main>article:nth-of-type(1) section:nth-of-type(1) ul li {
     color: var(--tekstkleur-4);
     padding-left: 1.5rem;
     margin-bottom: 0.75rem;
@@ -55,79 +55,83 @@ main > article:nth-of-type(1) section:nth-of-type(1) ul li {
     background-size: 0.80rem 0.80rem;
 }
 
-main > article:nth-of-type(1) section:nth-of-type(2) img {
+main>article:nth-of-type(1) section:nth-of-type(2) img {
     margin-bottom: 0.5em;
 }
 
-main > article:nth-of-type(1) section:nth-child(3), main > article:nth-of-type(1) section:nth-child(4) {
+main>article:nth-of-type(1) section:nth-child(3),
+main>article:nth-of-type(1) section:nth-child(4) {
     background-color: white;
     margin: 0 1.25em;
     padding: 1.25em;
-    padding-top: 0; 
+    padding-top: 0;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-main > section:nth-of-type(2) img, main section:nth-of-type(3) img {
+main>section:nth-of-type(2) img,
+main section:nth-of-type(3) img {
     height: auto;
     width: 5em;
-    margin-bottom: 0.5em; 
+    margin-bottom: 0.5em;
 }
 
-main section:nth-of-type(2) a, main section:nth-of-type(3) a {
+main section:nth-of-type(2) a,
+main section:nth-of-type(3) a {
     color: var(--achtergrondkleur-4);
     font-family: var(--lettertpe-3);
     font-weight: 700;
-    padding: 0.75em; 
+    padding: 0.75em;
 }
 
-main article:nth-of-type(1) section:nth-of-type(2) a img, main article:nth-of-type(1) section:nth-of-type(3) a img {
+main article:nth-of-type(1) section:nth-of-type(2) a img,
+main article:nth-of-type(1) section:nth-of-type(3) a img {
     height: auto;
     width: 1em;
     margin: 0;
     margin-left: 0.25em;
 }
 
-main > article:nth-of-type(2) {
+main>article:nth-of-type(2) {
     padding: 2.25em;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05), 0 10px 15px -5px rgba(0,0,0,0.05), 0 5px 5px -5px rgba(0,0,0,0.04);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 10px 15px -5px rgba(0, 0, 0, 0.05), 0 5px 5px -5px rgba(0, 0, 0, 0.04);
 }
 
-main > article:nth-of-type(2) p {
+main>article:nth-of-type(2) p {
     margin: 0;
     color: var(--tekstkleur-4);
 }
 
-main > article:nth-of-type(2) p:nth-of-type(1) {
+main>article:nth-of-type(2) p:nth-of-type(1) {
     margin-top: 0.5em;
     margin-bottom: 2em;
 }
 
-main > article:nth-of-type(3) {
+main>article:nth-of-type(3) {
     background-color: #f1f4f2;
     padding: 2.25em;
 }
 
-main > article:nth-of-type(3) h2 {
+main>article:nth-of-type(3) h2 {
     padding-top: 1.25em;
     text-align: center;
     font-size: 28px;
     margin-bottom: 1em;
 }
 
-main > article:nth-of-type(3) section:nth-of-type(1) li {
+main>article:nth-of-type(3) section:nth-of-type(1) li {
     border-bottom: 1px solid var(--tekstkleur-4);
     margin-bottom: 1.5em;
 }
 
-main > article:nth-of-type(3) section:nth-of-type(2) ul {
+main>article:nth-of-type(3) section:nth-of-type(2) ul {
     list-style: none;
-    padding: 0; 
+    padding: 0;
     display: block;
 }
 
-main > article:nth-of-type(3) section ul li {
+main>article:nth-of-type(3) section ul li {
     width: 100%;
     border-bottom: 1px solid var(--tekstkleur-4);
     margin-bottom: 1.5em;
@@ -144,7 +148,7 @@ main > article:nth-of-type(3) section ul li {
 
 .listHeader h4 {
     margin: 0;
-    flex: 1; 
+    flex: 1;
     padding-bottom: 0.25em;
 }
 
@@ -155,22 +159,22 @@ main > article:nth-of-type(3) section ul li {
     font-weight: 700;
     display: flex;
     align-items: center;
-    white-space: nowrap; 
+    white-space: nowrap;
     cursor: pointer;
-    padding: 0.5em 0; 
+    padding: 0.5em 0;
 }
 
 .knopJS1 img {
     margin-left: 0.5em;
-    width: 1.2em; 
+    width: 1.2em;
     height: auto;
 }
 
-main > article:nth-of-type(4) {
+main>article:nth-of-type(4) {
     padding: 3.25em;
 }
 
-main > article:nth-of-type(4) img {
+main>article:nth-of-type(4) img {
     padding: 1em;
     padding-bottom: 0em;
     height: auto;
@@ -178,44 +182,44 @@ main > article:nth-of-type(4) img {
     padding-top: 2em;
 }
 
-main > article:nth-of-type(4) ul {
+main>article:nth-of-type(4) ul {
     padding-left: 1em;
 }
 
-main > article:nth-of-type(4) button {
+main>article:nth-of-type(4) button {
     margin-top: 1em;
 }
 
-main > img:nth-of-type(2) {
+main>img:nth-of-type(2) {
     display: block;
     width: 9.5em;
     height: auto;
     margin: 0 auto;
     position: relative;
-    z-index: 5; 
-    margin-bottom: 0em; 
+    z-index: 5;
+    margin-bottom: 0em;
 }
 
-main > article:nth-of-type(5) {
+main>article:nth-of-type(5) {
     background-color: #fdf3e5;
     padding-top: 0;
     padding-bottom: 2em;
-    position: relative; 
-    z-index: 1; 
+    position: relative;
+    z-index: 1;
 }
 
-main > article:nth-of-type(5)::before {
+main>article:nth-of-type(5)::before {
     content: "";
     position: absolute;
-    top: -5.5em; 
+    top: -5.5em;
     left: 0;
     right: 0;
     height: 6em;
     background-color: #fdf3e5;
-    z-index: -1; 
+    z-index: -1;
 }
 
-main > article:nth-of-type(5) div {
+main>article:nth-of-type(5) div {
     padding: 2em;
     background-color: white;
     margin: 1.75em;
@@ -223,11 +227,11 @@ main > article:nth-of-type(5) div {
     margin-top: 0;
 }
 
-main > article:nth-of-type(5) div li:nth-child(odd) {
+main>article:nth-of-type(5) div li:nth-child(odd) {
     padding-top: 1em;
 }
 
-main > article:nth-of-type(5) div li:nth-child(even) {
+main>article:nth-of-type(5) div li:nth-child(even) {
     color: var(--achtergrondkleur-4);
     font-family: var(--lettertype-3);
     font-weight: 700;
@@ -236,30 +240,30 @@ main > article:nth-of-type(5) div li:nth-child(even) {
     border-bottom: 1px solid #ededed;
 }
 
-main > article:nth-of-type(5) h2 {
+main>article:nth-of-type(5) h2 {
     text-align: center;
     font-size: 22px;
     padding-top: 1em;
 }
 
-main > article:nth-of-type(5) ol {
+main>article:nth-of-type(5) ol {
     list-style: none;
     padding: 0;
 }
 
-main > article:nth-of-type(5) p:nth-of-type(1) {
+main>article:nth-of-type(5) p:nth-of-type(1) {
     margin-top: 0.25em
 }
 
-main > article:nth-of-type(6) {
+main>article:nth-of-type(6) {
     padding: 2.25em;
 }
 
-main > article:nth-of-type(6) button{
+main>article:nth-of-type(6) button {
     margin-top: 1.5em;
 }
 
-main > article:nth-of-type(7) {
+main>article:nth-of-type(7) {
     padding: 1.5em;
     margin: 2.25em;
     border: 2px solid var(--achtergrondkleur-4);
@@ -269,40 +273,40 @@ main > article:nth-of-type(7) {
     font-size: 16px;
 }
 
-main > article:nth-of-type(7) img {
+main>article:nth-of-type(7) img {
     width: 10em;
     height: auto;
     margin-bottom: 1.5em;
 }
 
-main > article:nth-of-type(7) h2 {
+main>article:nth-of-type(7) h2 {
     color: #373737;
 }
 
-main > article:nth-of-type(7) a {
+main>article:nth-of-type(7) a {
     color: var(--achtergrondkleur-4);
     font-family: var(--lettertype-3);
     font-weight: 700;
 }
 
-main > article:nth-of-type(7) a img {
+main>article:nth-of-type(7) a img {
     width: 1.15em;
     height: auto;
     margin: 0;
 }
 
-main > article:nth-of-type(8) {
+main>article:nth-of-type(8) {
     padding: 2.25em;
 }
 
-main > article:nth-of-type(8) ul {
+main>article:nth-of-type(8) ul {
     list-style: none;
     padding: 1.75em;
     margin: 0;
     padding-bottom: 0;
 }
 
-main > article:nth-of-type(8) ul li {
+main>article:nth-of-type(8) ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -310,59 +314,58 @@ main > article:nth-of-type(8) ul li {
     line-height: 2em;
 }
 
-main > article:nth-of-type(8) ul li a {
+main>article:nth-of-type(8) ul li a {
     margin-top: 2em;
     font-family: var(--lettertype-3);
     font-weight: 700;
     color: var(--achtergrondkleur-4);
 }
 
-main > article:nth-of-type(8) ul li a img {
+main>article:nth-of-type(8) ul li a img {
     height: auto;
     width: 1em;
 }
 
-main > section > img {
+main>section>img {
     display: block;
     width: 9.5em;
     height: auto;
     margin: 0 auto;
     position: relative;
-    z-index: 5; 
-    margin-bottom: 0em; 
+    z-index: 5;
+    margin-bottom: 0em;
 }
 
-main > section > article:nth-of-type(1) {
+main>section>article:nth-of-type(1) {
     background-color: #fdf3e5;
-    padding-top: 7;
     padding-bottom: 2.5em;
-    position: relative; 
-    z-index: 1; 
+    position: relative;
+    z-index: 1;
 }
 
-main > section > article:nth-of-type(1)::before {
+main>section>article:nth-of-type(1)::before {
     content: "";
     position: absolute;
-    top: -4.75em; 
+    top: -4.75em;
     left: 0;
     right: 0;
     height: 7.5em;
     background-color: #fdf3e5;
-    z-index: -1; 
+    z-index: -1;
 }
 
-main > section > article:nth-of-type(1) > div {
-background-color: white;
-padding: 1.25em;
-margin: 1.25em;
-text-align: left;
-box-shadow: 0 1px 3px rgba(0,0,0,0.05), 0 10px 15px -5px rgba(0,0,0,0.05), 0 5px 5px -5px rgba(0,0,0,0.04);
-margin-top: 0;
+main>section>article:nth-of-type(1)>div {
+    background-color: white;
+    padding: 1.25em;
+    margin: 1.25em;
+    text-align: left;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 10px 15px -5px rgba(0, 0, 0, 0.05), 0 5px 5px -5px rgba(0, 0, 0, 0.04);
+    margin-top: 0;
 }
 
-main > section > article:nth-of-type(1) div h2 {
-font-size: 19px;
-padding-top: 2em;
+main>section>article:nth-of-type(1) div h2 {
+    font-size: 19px;
+    padding-top: 2em;
 }
 
 .zoeken {
@@ -371,11 +374,11 @@ padding-top: 2em;
     padding: 0;
 }
 
-main > section > article:nth-of-type(1) div h2 {
-    padding-bottom: 1em; 
+main>section>article:nth-of-type(1) div h2 {
+    padding-bottom: 1em;
 }
 
-main > section > article:nth-of-type(1) div input {
+main>section>article:nth-of-type(1) div input {
     padding: 1em;
     border-top: 2px solid #d7d7d7;
     border-left: 2px solid #d7d7d7;
@@ -389,7 +392,7 @@ main > section > article:nth-of-type(1) div input {
     padding-right: 0;
 }
 
-main > section > article:nth-of-type(1) div button {
+main>section>article:nth-of-type(1) div button {
     padding: 1em;
     height: 3.5em;
     width: 3.5em;
@@ -397,18 +400,18 @@ main > section > article:nth-of-type(1) div button {
     background-color: #1f7d65;
 }
 
-main > section > article:nth-of-type(1) div button svg {
+main>section>article:nth-of-type(1) div button svg {
     fill: white;
 }
 
-main > section > article:nth-of-type(2) {
+main>section>article:nth-of-type(2) {
     padding: 1.25em;
     background-color: #fdf3e5;
     padding-bottom: 6em;
     padding-top: 0;
 }
 
-main > section > article:nth-of-type(2) ul li {
+main>section>article:nth-of-type(2) ul li {
     display: flex;
     justify-content: space-between;
     padding: 0.25em 0;
@@ -416,14 +419,14 @@ main > section > article:nth-of-type(2) ul li {
     margin: 0.80em 0;
 }
 
-main > section > article:nth-of-type(2) ul li img {
+main>section>article:nth-of-type(2) ul li img {
     height: auto;
     width: 1.25em;
 }
 
 .uitklap1 {
     display: block;
-    max-height: 0;      
+    max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s ease;
     margin: 0;
@@ -447,9 +450,11 @@ p.uitklap1.zichtbaar {
 .andereProducten {
     display: flex;
     overflow-x: auto;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none;  /* IE/Edge */
-    
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE/Edge */
+
     scroll-snap-type: x mandatory;
     padding: 0;
     margin: 0;
@@ -457,17 +462,17 @@ p.uitklap1.zichtbaar {
 }
 
 .andereProducten li {
-    flex: 0 0 100%; 
+    flex: 0 0 100%;
     min-width: 120%;
-    
-    scroll-snap-align: start; 
-    scroll-snap-stop: always; 
-    
+
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    
+
     padding: 2.25em;
     box-sizing: border-box;
 }
@@ -479,18 +484,20 @@ p.uitklap1.zichtbaar {
         overflow-x: visible;
         scroll-snap-type: none;
     }
+
     .andereProducten li {
         flex: none;
         min-width: auto;
     }
 }
 
-main > article:nth-of-type(8) {
+main>article:nth-of-type(8) {
     padding-bottom: 0;
-    margin-bottom: 3em;;
+    margin-bottom: 3em;
+    ;
 }
 
-main > article:nth-of-type(8) h2 {
+main>article:nth-of-type(8) h2 {
     display: flex;
     justify-content: center;
 }
@@ -509,7 +516,7 @@ main > article:nth-of-type(8) h2 {
     width: 5px;
     height: 5px;
     border-radius: 100%;
-    background-color: #d7d7d7; 
+    background-color: #d7d7d7;
     transition: background-color 0.3s ease;
 }
 

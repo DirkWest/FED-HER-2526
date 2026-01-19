@@ -1,4 +1,4 @@
-/* 􃈩 Opmaak Header & Nav */
+/*  Opmaak Header & Nav */
 header nav {
     display: flex;
     align-items: center;
@@ -6,10 +6,57 @@ header nav {
     font-family: "ProximaNova-Semibold";
     font-size: 0.85em;
     background-color: var(--achtergrondkleur-3);
-    
+
     position: sticky;
     top: 0;
     z-index: 100;
+}
+
+.hamburgerInhoud {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+    z-index: 1000;
+    border-top: 1px solid #f0f0f0;
+}
+
+.hamburgerInhoud li {
+    width: 100%;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.hamburgerInhoud li a {
+    display: block;
+    padding: 18px 25px;
+    text-decoration: none;
+    color: var(--tekstkleur-4);
+    font-weight: 500;
+    font-family: var(--lettertype-3);
+    transition: background 0.3s ease;
+}
+
+.hamburgerInhoud.active {
+    display: flex;
+}
+
+@media (min-width: 768px) {
+    .hamburgerInhoud {
+        display: flex;
+        flex-direction: row;
+        position: static;
+    }
+
+    .hamburger {
+        display: none;
+    }
 }
 
 header nav ul li {
@@ -47,6 +94,16 @@ header button svg {
     width: 100%;
     fill: var(--tekstkleur-4);
     padding-right: 2vw;
+}
+
+@media (min-width: 1024px) {
+    header nav .hamburger {
+        display: none;
+    }
+
+    header nav ul {
+        display: flex;
+    }
 }
 
 header section {
@@ -95,6 +152,7 @@ header section {
     text-decoration: none;
     font-family: var(--lettertype-3);
 }
+
 #blok1 a img {
     height: auto;
     width: 1em;
@@ -118,7 +176,7 @@ main nav ol li {
     text-decoration: none;
 }
 
-/* 􀌯 Bron: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:not */
+/* Bron: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:not */
 main nav ol li:not(:last-child)::after {
     content: "";
     display: inline-block;
@@ -136,7 +194,7 @@ main nav ol li a {
     color: #761234;
 }
 
-/* 􀌯 Bron: https://gemini.google.com/share/ebdf00afc044  */
+/* Bron: https://gemini.google.com/share/ebdf00afc044  */
 /* Prompt: "Hoe kan ik de laatste van deze nav een andere kleur en dikte geven?" */
 main nav ol li a[aria-current="page"] {
     color: var(--tekstkleur-4);
