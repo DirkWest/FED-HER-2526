@@ -172,3 +172,15 @@ a {
     background-color: white;
     color: var(--tekstkleur-3);
 }
+
+@media screen and (min-width: 768px) {
+    .knopWit {
+        max-width: 20em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .knopGroen {
+        max-width: 20em;
+    }
+}

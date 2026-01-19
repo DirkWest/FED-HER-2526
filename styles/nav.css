@@ -7,7 +7,6 @@ header nav {
     font-size: 0.85em;
     background-color: var(--achtergrondkleur-3);
     
-    /* Postion van de nav werkt nog niet goed, verdwijnt, ookal is die stickey... */
     position: sticky;
     top: 0;
     z-index: 100;
